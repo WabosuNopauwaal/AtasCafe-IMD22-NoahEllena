@@ -11,20 +11,21 @@
       <div class="container">
         <div class="row intro-area">
           <div
-            class="col-sm-12 col-xl-4 offset-xl-4 first-bg-img"
-            style="background-image: url('/img/BackgroundIMGintropage.webp')"
-          ></div>
-          <img
-            class="col-sm-12 col-xl-4 offset-xl-4 logo-img"
-            src="/img/AtasCafe-logo.png"
-            alt="logo"
-          />
-          <h2 class="col-sm-12 col-xl-2 offset-xl-5 nav-area-text">About</h2>
-          <h2 class="col-sm-12 col-xl-2 offset-xl-5 nav-area-text">Menu</h2>
-          <h2 class="col-sm-12 col-xl-2 offset-xl-5 nav-area-text">Contact</h2>
+            class="col-sm-12 col-xl-4 offset-xl-4 first-bg-img">
+            <h1    class="col-sm-12 col-xl-4 offset-xl-4 logo-img">
+            <img src="/img/Atas&cafe-logo.webp"
+            alt="logo" />
+            </h1>
+            <h2 href="#about" class="col-sm-12 col-xl-2 offset-xl-5 nav-area-text">About</h2>
+            <h2 href="#menu" class="col-sm-12 col-xl-2 offset-xl-5 nav-area-text">Menu</h2>
+            <h2 href="#contact" class="col-sm-12 col-xl-2 offset-xl-5 nav-area-text">
+              Contact
+            </h2>
+          </div>
+          </div>
         </div>
         <div class="row">
-          <p class="col-sm-12 col-xl-8 offset-xl-2 first-intro-text">
+          <p id="about" class="col-sm-12 col-xl-8 offset-xl-2 first-intro-text">
             Based in <strong>Fribourg</strong>, we are a
             <strong>café</strong> that offers an
             <strong>international selection of desserts</strong>. Enjoy our
@@ -36,13 +37,13 @@
     <main>
       <div class="container">
         <div class="row Menu-nav-area">
-          <h2 class="col-sm-12 col-xl-2 offset-xl-5 menu-nav-area-title">
+          <h2 id="menu" class="col-sm-12 col-xl-2 offset-xl-5 menu-nav-area-title">
             Menu
           </h2>
-          <a class="col-sm-12 col-xl-2 offset-xl-5 button">Drinks</a>
-          <a class="col-sm-12 col-xl-2 offset-xl-5 button">Dessert</a>
+          <a href="#drink-menu" class="col-sm-12 col-xl-2 offset-xl-5 button">Drinks</a>
+          <a href="#dessert-menu" class="col-sm-12 col-xl-2 offset-xl-5 button">Dessert</a>
         </div>
-        <div class="row drink-menu">
+        <div id="drink-menu" class="row drink-menu">
           <div class="col-sm-12 col-xl-2 offset-xl-5 drink-menu">
             <h3 class="drink-menu-title">Drinks</h3>
           </div>
@@ -63,7 +64,7 @@
           </div>
         </div>
         <div class="row">
-          <h3 class="col-sm-12 col-xl-2 offset-xl-5 menu-title">Dessert</h3>
+          <h3 id="dessert-menu" class="col-sm-12 col-xl-2 offset-xl-5 menu-title">Dessert</h3>
           <p class="col-sm-12 col-xl-8 offset-xl-2 dessert-menu-text">
             Discover our monthly selection of desserts
           </p>
@@ -90,7 +91,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="contact">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">Background-footer</div>

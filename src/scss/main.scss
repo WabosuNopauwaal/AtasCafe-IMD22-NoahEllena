@@ -19,6 +19,7 @@ html {
   font-size: 16px;
   font-family: Museo slab, serif;
   @import "bootstrap/scss/bootstrap-grid";
+  text-decoration: none;
 }
 
 body {
@@ -54,6 +55,11 @@ video {
 }
 .first-bg-img {
   color: white;
+  background-image: url("/img/BackgroundIMGintropage.webp");
+}
+
+.logo-img {
+  margin: 123, 17px 43, 5px 91px 43, 5px;
 }
 
 .nav-area-text {
@@ -84,6 +90,7 @@ video {
 .menu-title {
   font-weight: 700;
   font-size: 27px;
+  margin-bottom: 16px;
 }
 
 .drink-menu {
@@ -95,6 +102,7 @@ video {
 .dessert-menu-text {
   font-weight: 300;
   font-size: 15px;
+  margin-bottom: 21, 5px;
 }
 footer {
   color: white;
