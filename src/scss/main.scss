@@ -1,3 +1,114 @@
-@import "base";
-@import "layout";
-@import "modules/example";
+/* ====================================
+// css variables
+// ==================================== */
+/*
+:root {
+}
+//
+/* ====================================
+// reset rules
+// ==================================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: Museo slab, serif;
+  @import "bootstrap/scss/bootstrap-grid";
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid;
+  text-align: center;
+}
+.first-bg-img {
+  color: white;
+}
+
+.nav-area-text {
+  color: white;
+  font-weight: 700;
+  font-size: 37px;
+}
+
+.first-intro-text {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.menu-nav-area-title {
+  font-weight: 600;
+  font-size: 49px;
+}
+
+.button {
+  background: gray;
+  border-radius: 20.84px;
+  font-weight: 700;
+  font-size: 27px;
+  letter-spacing: -0.41px;
+  text-align: center;
+}
+
+.menu-title {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.drink-menu {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 23;
+}
+
+.dessert-menu-text {
+  font-weight: 300;
+  font-size: 15px;
+}
+footer {
+  color: white;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 39px;
+}
+
+.footer-text {
+  font-weight: 300;
+  font-size: 23px;
+}
+/* ====================================
+// base rules
+// ==================================== */
