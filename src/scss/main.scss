@@ -43,29 +43,31 @@ video {
 }
 
 .row + .row {
-  margin-top: 16px;
+  margin-top: 0;
 }
 
 .row > .col,
 .row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border: 1px solid;
   text-align: center;
 }
+
 .first-bg-img {
   color: white;
   background-image: url("/img/BackgroundIMGintropage.webp");
 }
 
 .logo-img {
-  margin: 123, 17px 43, 5px 91px 43, 5px;
+  margin-top: 122px;
 }
 
 .nav-area-text {
   color: white;
   font-weight: 700;
   font-size: 37px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  padding-top: 91px;
 }
 
 .first-intro-text {
@@ -85,6 +87,7 @@ video {
   font-size: 27px;
   letter-spacing: -0.41px;
   text-align: center;
+  text-decoration: none;
 }
 
 .menu-title {
@@ -97,6 +100,12 @@ video {
   font-weight: 300;
   font-size: 19px;
   line-height: 23;
+  display: flex;
+}
+
+.drink-menu-list {
+  display: flex;
+  flex-direction: column;
 }
 
 .dessert-menu-text {
