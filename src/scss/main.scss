@@ -124,9 +124,14 @@ a {
 .drink-menu {
   font-weight: 300;
   font-size: 19px;
-  line-height: 23;
+  line-height: 23px;
   display: flex;
   justify-content: center;
+}
+
+.drink-menu-title {
+  font-size: 27px;
+  font-weight: 700;
 }
 
 .drink-menu-list {
