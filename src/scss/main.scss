@@ -54,6 +54,8 @@ video {
 .first-bg-img {
   color: white;
   background-image: url("/img/BackgroundIMGintropage.webp");
+  background-size: cover;
+  background-position: center;
 }
 /* col-xl-4 offset-xl-4  */
 .logo-img {
@@ -137,18 +139,15 @@ a {
 
 .drink-menu-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-size: 19px;
   line-height: 23px;
   font-weight: 300;
+  justify-content: space-between;
 }
 
-.drink-menu-name {
-  justify-content: start;
-}
-
-.drink-menu-price {
-  justify-content: end;
+.drink-menu-group {
+  margin-bottom: 57px;
 }
 
 .dessert-menu-text {
