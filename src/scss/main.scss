@@ -85,11 +85,24 @@ a {
   padding-bottom: 36px;
 }
 
-.first-intro-text {
-  font-weight: 500;
-  font-size: 24px;
-  margin-top: 36px;
-  margin-bottom: 31px;
+@media (min-width: 601px) {
+  .first-intro-text {
+    font-size: 44px;
+    line-height: 45px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 65px;
+  }
+}
+
+@media (max-width: 600px) {
+  .first-intro-text {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+    margin-top: 36px;
+    margin-bottom: 31px;
+  }
 }
 
 .Menu-nav-area {
@@ -132,33 +145,81 @@ a {
 }
 
 .drink-menu-title {
-  font-size: 27px;
-  font-weight: 700;
   margin-top: 58px;
+}
+
+@media (min-width: 601px) {
+  .drink-menu-title {
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73px;
+  }
+}
+
+@media (max-width: 600px) {
+  .drink-menu-title {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 32;
+  }
 }
 
 .drink-menu-list {
   display: flex;
   flex-direction: row;
-  font-size: 19px;
-  line-height: 23px;
-  font-weight: 300;
   justify-content: space-between;
+}
+
+@media (min-width: 601px) {
+  .drink-menu-list {
+    font-size: 29px;
+    line-height: 33px;
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 600px) {
+  .drink-menu-list {
+    font-size: 19px;
+    line-height: 23px;
+    font-weight: 300;
+  }
 }
 
 .drink-menu-group {
   margin-bottom: 57px;
 }
 
-.dessert-menu-text {
-  font-weight: 300;
-  font-size: 15px;
-  margin-top: 17px;
-  margin-bottom: 21px;
+@media (min-width: 601px) {
+  .menu-title {
+    font-size: 37px;
+    line-height: 45px;
+    font-weight: 300;
+    margin-top: 27px;
+    margin-bottom: 21px;
+  }
 }
 
-.dessert-menu-img {
-  margin: 0%;
+@media (max-width: 600px) {
+  .menu-title {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 300;
+    margin-top: 17px;
+    margin-bottom: 21px;
+  }
+}
+
+@media (min-width: 901px) {
+  .dessert-menu-img {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 900px) {
+  .dessert-menu-img {
+    width: auto;
+  }
 }
 
 footer {
